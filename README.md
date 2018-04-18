@@ -15,34 +15,34 @@ Essential Methods:
 8. remove(e)
 
 # Summary of Development Plan
-size():
-  returns _size attribute
+size():  
+  returns _size attribute  
   
-peekFirst():
-  returns _head element
+peekFirst():  
+  returns _head element  
   
-peekLasT():
-  returns _tail element
+peekLasT():  
+  returns _tail element  
   
-addFirst(e):
-  adds e to the head and reassign _head
+addFirst(e):  
+  adds e to the head and reassign _head  
   
-addLast(e):
-  adds e to the tail and reassign _tail
-
-removeFirst():
-  removes element at _head 
+addLast(e):   
+  adds e to the tail and reassign _tail  
+ 
+removeFirst():  
+  removes element at _head   
   return removed element
 
-removeLast():
-  removes element at _tail
+removeLast():  
+  removes element at _tail  
   return removed element
   
-contains(e):
-  checks if queue conatains element e
+contains(e):  
+  checks if queue conatains element e  
   returns boolean
-  
-remove(e):
-  removes first occurance of e
+   
+remove(e):  
+  removes first occurance of e  
   returns boolean
 
