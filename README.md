@@ -3,6 +3,7 @@
 Team Nothing - Sean Roudnitsky, Ying Xin Jiang, Aidan Griffin  
   
 # To-do List  
+0. Fix submodule  
 Essential Methods:  
 1. size() 
 2. peekFirst()
