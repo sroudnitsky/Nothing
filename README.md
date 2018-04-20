@@ -14,8 +14,8 @@ Team Nothing - Sean Roudnitsky, Ying Xin Jiang, Aidan Griffin
 +removeLast()
 +getFirst()	
 +getLast()  
-contains(e)  
-remove(e)  
++contains(e)  
++remove(e)  
 
 # Summary of Development Plan
 size():  

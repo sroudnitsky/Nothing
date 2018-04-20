@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 
 public class QQKachoo<Card> implements deque<Card>{
@@ -27,12 +28,15 @@ public class QQKachoo<Card> implements deque<Card>{
     public Card getFirst(){
 	return _Deque.get(0);
     }//O(1)
-    public Card getLast(){
+    
+public Card getLast(){
 	return _Deque.get(_Deque.size() - 1);
     }//O(1)
+
     public int size(){
 	return _Deque.size();
     }//O(1)
+
     public boolean contains(Card e){
 	for (int i = 0; i < _Deque.size(); i++){
 	    if (_Deque.get(i).equals(e)){
@@ -41,6 +45,7 @@ public class QQKachoo<Card> implements deque<Card>{
 	}
 	return false;
     }//O(n)
+
     public boolean remove(Card e){
 	int counter = 0;
 	for (int i = 0; i < _Deque.size(); i++){
@@ -52,6 +57,7 @@ public class QQKachoo<Card> implements deque<Card>{
 	}
 	return false;
     }//Amortized run time: O(n) in best case, O(n^2) in worst case
+
     public String toString(){
 	String retStr = "[";
 	for (int i = 0; i < _Deque.size(); i++){
