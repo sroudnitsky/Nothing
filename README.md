@@ -5,7 +5,7 @@ Team Nothing - Sean Roudnitsky, Ying Xin Jiang, Aidan Griffin
 # To-do List  
 0. Fix submodule  (done)
 1. Create interface deque (done)
-2. Create class QQkachoo
+2. Create class QQkachoo (done)
 3. Implement Essential Methods:  
 +size()  
 +addFirst(e)  
