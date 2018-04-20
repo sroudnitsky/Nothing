@@ -1,4 +1,5 @@
-public interface deque<Card>{
+public interface deque<Card> {
+
     //returns size
     public int size();
     
@@ -22,6 +23,7 @@ public interface deque<Card>{
 
     //checks if queue contains element e
     public boolean contains(Card e);
+
     //removes the first occurrence of e and returns whether the element has been removed or not
     public boolean remove(Card e);
 

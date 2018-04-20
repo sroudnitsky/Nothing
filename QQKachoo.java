@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class QQKachoo<Card> implements Deque<Card>{
+public class QQKachoo<Card> implements deque<Card>{
 
     private ArrayList<Card> _Deque;
 
@@ -31,3 +31,4 @@ public class QQKachoo<Card> implements Deque<Card>{
     public Card getLast(){
 	return _Deque.get(_Deque.size() - 1);
     }
+}
