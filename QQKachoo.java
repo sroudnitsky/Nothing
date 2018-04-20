@@ -1,5 +1,3 @@
-
-
 public class QQKachoo<Card> implements deque<Card>{
 
     private DLLNode<Card> _head;

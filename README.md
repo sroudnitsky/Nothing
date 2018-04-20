@@ -8,8 +8,6 @@ Team Nothing - Sean Roudnitsky, Ying Xin Jiang, Aidan Griffin
 2. Create class QQkachoo
 3. Implement Essential Methods:  
 +size()  
-peekFirst()  
-peekLast()  
 +addFirst(e)  
 +addLast(e)  
 +removeFirst()  
@@ -23,10 +21,10 @@ remove(e)
 size():  
   returns _size attribute  
   
-peekFirst():  
+getFirst():  
   returns _head element  
   
-peekLasT():  
+getLast():  
   returns _tail element  
   
 addFirst(e):  
@@ -50,9 +48,3 @@ contains(e):
 remove(e):  
   removes first occurance of e  
   returns boolean
-
-getFirst()
-returns 1st element
-
-getLast()
-returns last element

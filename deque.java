@@ -4,10 +4,10 @@ public interface deque<Card> {
     public int size();
     
     //returns _head element
-    public Card peekFirst();
+    public Card getFirst();
 
     //returns _tail element
-    public Card peekLast();
+    public Card getLast();	
 
     //adds e to _head and reassigns it
     public void addFirst(Card e);

@@ -3,7 +3,7 @@
  * Implements a node, for use in lists and other container classes.
  *****************************************************/
 
-public class DLLNode<T> {
+public class DLLNode<Card> {
 
     private Card _cargo;    //cargo may only be of type Card
     private DLLNode<Card> _nextNode, _prevNode; //pointers to next, prev DLLNodes
