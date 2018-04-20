@@ -7,13 +7,15 @@ Team Nothing - Sean Roudnitsky, Ying Xin Jiang, Aidan Griffin
 1. Create interface deque (done)
 2. Create class QQkachoo
 3. Implement Essential Methods:  
-size()  
++size()  
 peekFirst()  
 peekLast()  
-addFirst(e)  
-addLast(e)  
-removeFirst()  
-removeLast()  
++addFirst(e)  
++addLast(e)  
++removeFirst()  
++removeLast()
++getFirst()	
++getLast()  
 contains(e)  
 remove(e)  
 
@@ -49,3 +51,8 @@ remove(e):
   removes first occurance of e  
   returns boolean
 
+getFirst()
+returns 1st element
+
+getLast()
+returns last element

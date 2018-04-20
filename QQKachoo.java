@@ -8,6 +8,10 @@ public class QQKachoo<Card> implements deque<Card>{
 	_Deque = new ArrayList<Card>();
     }
 
+public int size() {
+return _Deque.size();
+}
+
     public void addFirst(Card x){
 	_Deque.add(0,x);
     }
