@@ -1,10 +1,12 @@
+import java.util.ArrayList;
+
 public class QQKachoo<Card> implements deque<Card>{
     
-    private DLLNode<Card> _Deque;
+    private ArrayList<Card> _Deque;
     
 //constructor
     public QQKachoo(){
-	_Deque = new DLLNode<Card>();
+	_Deque = new ArrayList<Card>();
     }
     
 //adds new element at head
