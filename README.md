@@ -7,15 +7,15 @@ Team Nothing - Sean Roudnitsky, Ying Xin Jiang, Aidan Griffin
 1. Create interface deque (done)
 2. Create class QQkachoo (done)
 3. Implement Essential Methods(done):  
-+size() -> done 
-+addFirst(e) -> done
-+addLast(e) -> done
-+removeFirst() -> done  
-+removeLast() -> done
-+getFirst() -> done	
-+getLast() -> done  
-+contains(e) -> done  
-+remove(e) -> done  
++ size() -> done 
++ addFirst(e) -> done
++ addLast(e) -> done
++ removeFirst() -> done  
++ removeLast() -> done
++ getFirst() -> done	
++ getLast() -> done  
++ contains(e) -> done  
++ remove(e) -> done  
 
 # Summary of Development Plan
 size():  
